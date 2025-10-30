@@ -1,0 +1,113 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  #b1a8ec;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    font-size: 40px;
+    color: #6c63ff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    width: 500px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    color: #6c63ff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 img {
+    width: 500px;
+}
+
+.main2-info {
+    max-width: 500px;
+}
+
+.main2-info p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.main2-info img {
+    width: 20px
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 23px;
+    border: 2px solid rgb(175, 171, 171);
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 23px;
+    border: 2px solid rgb(175, 171, 171);
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form button {
+    padding: 10px;
+    font-size: 23px;
+    border: 3px solid #6c63ff;
+    border-radius: 5px;
+    background-color: #6c63ff;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form button:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid #6c63ff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #6c63ff;
+    font-style: italic;
+}
